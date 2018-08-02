@@ -1,0 +1,75 @@
+<div class="container">
+	<!-- Modal -->
+	  <div class="modal fade" tabindex="-1" id="changeInfoModal" role="dialog">
+	    <div class="modal-dialog modal-lg">
+
+	      <!-- Modal content-->
+	      <div class="modal-content">
+	        <div class="modal-header">
+	          <button type="button" class="close" data-dismiss="modal">&times;</button>
+	          <h4><i class="fa fa-home"></i> Property's Information</h4>
+	        </div>
+	        <div class="modal-body">
+		        <form action="actions/props/change-info.php?pid=" class="form" method="post" id="changeInfoForm">
+					<fieldset>
+						<legend>Amenities:</legend>
+						<div class="row">
+							<div class="col-md-12 form-group">
+								<label class="control-label" for="desc"><i class="fa fa-home"></i> In House</label>
+								<br>
+								<label class="control-label checkbox-inline">
+									<input type="checkbox" name="in_house[]" value="net"> Internet / Wi-Fi
+								</label>
+								<label class="control-label checkbox-inline">
+									<input type="checkbox" name="in_house[]" value="air"> Air-Conditioned
+								</label>
+								<label class="control-label checkbox-inline">
+									<input type="checkbox" name="in_house[]" value="ro"> RO Water System
+								</label>
+								<label class="control-label checkbox-inline">
+									<input type="checkbox" name="in_house[]" value="gas"> Gas Supply
+								</label>
+								<label class="control-label checkbox-inline">
+									<input type="checkbox" name="in_house[]" value="water"> Water Supply and Pipeling
+								</label>
+							</div>
+						</div>
+					</fieldset>
+					<fieldset>
+						<legend>Property Snapshot:</legend>
+						<div class="row">
+							<div class="col-md-4 form-group">
+								<label class="control-label" for="units"><i class="fa fa-building-o"></i> Available Units</label>
+								<div class="input-group">
+									<input type="number" name="units" class="form-control" placeholder="Enter Available Units" required max="1000" min="1">
+									<span class="input-group-addon">Units.</span>
+								</div>
+							</div>
+							<div class="col-md-4 form-group">
+								<label class="control-label" for="floor"><i class="fa fa-building-o"></i> Floor Number (0 for Ground)</label>
+								<input type="number" name="floor" class="form-control" placeholder="Enter Floor Number" max="100" min="-3">
+							</div>
+							<div class="col-md-4 form-group">
+								<label class="control-label" for="t-floor"><i class="fa fa-building-o"></i> Total Floors</label>
+								<input type="number" name="t_floors" class="form-control" placeholder="Enter Total Number of Floors" required max="100" min="1">
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-6 form-group">
+								<label class="control-label" for="desc"><i class="fa fa-info-circle"></i> Brief Description (Optional)</label>
+								<textarea name="desc" class="form-control" placeholder="Enter Breif Description of Property" rows="4"></textarea>
+							</div>
+							<div class="col-md-6 form-group">
+								<label class="control-label" for="tnc"><i class="fa fa-info-circle"></i> Terms and Conditions (Optional)</label>
+								<textarea name="tnc" class="form-control" placeholder="Enter Terms and Conditions of Property" rows="4"></textarea>
+							</div>
+						</div>
+					</fieldset>
+		        	<button type="submit" class="btn btn-default btn-success btn-block" name="submit_btn" value="infoEdit"><span class="fa fa-check"></span> Edit</button>
+		        </form>
+	        </div>	        
+	      </div>
+	    </div>
+	  </div> 
+	</div>
+</div>

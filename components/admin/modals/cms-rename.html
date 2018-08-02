@@ -1,0 +1,26 @@
+<div class="container">
+	<!-- Modal -->
+	  <div class="modal fade" tabindex="-1" id="renameModal" role="dialog">
+	    <div class="modal-dialog">
+
+	      <!-- Modal content-->
+	      <div class="modal-content">
+	        <div class="modal-header">
+	          <button type="button" class="close" data-dismiss="modal">&times;</button>
+	          <h4><i class="fa fa-edit"></i> Rename Image</h4>
+	        </div>
+	        <div class="modal-body">
+	        	<div class="form-group">
+	        		<label class="control-label">Filename</label>
+	        		<input type="text" class="form-control" name="filename" id="filename">
+	        	</div>
+	        </div>
+	        <div class="modal-footer">
+		          <button class="btn btn-danger pull-left" data-dismiss="modal"><i class="fa fa-remove"></i> Cancel</button>
+		          <button class="btn btn-success pull-right" data-dismiss="modal" onclick="renameAction('uploads/users/temp.png', 'client')"><i class="fa fa-check"></i> Rename</button>
+	        </div>	        
+	      </div>
+	    </div>
+	  </div> 
+	</div>
+</div>

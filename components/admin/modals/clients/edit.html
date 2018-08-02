@@ -1,0 +1,68 @@
+<div class="container">
+	<!-- Modal -->
+	  <div class="modal fade" tabindex="-1" id="clientEditModal" role="dialog">
+	    <div class="modal-dialog">
+
+	      <!-- Modal content-->
+	      <div class="modal-content">
+	        <div class="modal-header">
+	          <button type="button" class="close" data-dismiss="modal">&times;</button>
+	          <h4><i class="fa fa-pencil"></i> Edit Client Profile</h4>
+	        </div>
+	        <div class="modal-body">
+	        	<div class="user-dp user-dp-lg pull-left" style="border-radius: 0px; background-image: url('uploads/user/temp.png');">
+		        	<div class="info change-picture">
+			            <h4><i class="fa fa-fw fa-camera"></i> Change Photo</h4>
+					</div>
+	        	</div>
+	        	<div class="pull-right">
+					<p>Change <a data-dismiss="modal" id="change-address"><i class="fa fa-fw fa-map-signs"></i> Address?</a></p>
+					<p>Change <a data-dismiss="modal" id="change-password"><i class="fa fa-fw fa-eye-slash"></i> Password?</a></p>
+					<p>Change <a data-dismiss="modal" class="change-picture"><i class="fa fa-fw fa-camera"></i> Profile Pic?</a></p>
+	        	</div>
+	        	<div class="clearfix"></div>
+	        	<br>
+	          <!-- <form role="form" onsubmit="editClientAction('actions/admin/client-update.php', 0)" method="post" id="editForm"> -->
+	          <form role="form" action="actions/admin/client-update.php?cid=" method="post" id="editForm">
+	            <div class="form-group">
+	              <label for="usrname"><i class="fa fa-user-circle"></i> Username</label>
+	              <div class="row">
+		              <div class="col-md-6">
+			              <input type="text" class="form-control" name="fname" id="fname" required>
+		              </div>
+		              <div class="col-md-6">
+			              <input type="text" class="form-control" name="lname" id="lname" required>
+		              </div>
+	              </div>
+	            </div>
+				<div class="form-group">
+	              <label for="email"><i class="fa fa-envelope"></i> Email</label>
+	              <input type="email" class="form-control" name="email" id="email" required>
+	            </div>
+				<div class="form-group row">
+					<div class="col-md-3">
+						<label class="control-label">
+							<i class="fa fa-fw fa-mars" id="g_l"></i> Gender
+						</label>
+					</div>
+					<div class="col-md-9">
+						<label class="radio-inline">
+							<input type="radio" name="gender" value="male" required checked onclick="$('#g_l').removeClass('fa-venus');$('#g_l').addClass('fa-mars');" id="male"> Male
+						</label>
+						<label class="radio-inline">
+							<input type="radio" name="gender" value="female" required onclick="$('#g_l').removeClass('fa-mars');$('#g_l').addClass('fa-venus');" id="female"> Female
+						</label>
+					</div>
+				</div>
+	            <div class="form-group">
+	              <label for="cont"><i class="fa fa-phone"></i> Contact Number</label>
+	              <input type="tel" class="form-control" name="cont" id="cont" required>
+	            </div>
+	            <button type="submit" class="btn btn-default btn-success btn-block" name="submit_btn" value="clientEdit"><span class="fa fa-check"></span> Apply</button>
+	          </form>
+	        </div>
+	      </div>
+	    </div>
+	  </div> 
+	</div>
+</div>
