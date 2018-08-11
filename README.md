@@ -25,14 +25,19 @@ Say what the step will be
 
 ```
 Extract the downloaded zip in a particular folder.
-Place these files to htdocs in case of XAMPP. In case of WAMP place it in www folder of WAMP installation folder else start php and MySQL services manually for that folder.
+Place these files to htdocs in case of XAMPP. 
+In case of WAMP place it in www folder of WAMP installation folder 
+else start php and MySQL services manually for that folder.
 Open WAMP, XAMPP Control Panel if available.
 
 After getting things ready open Apache and MySQL from WAMP, XAMPP Control Panel if available.
 
-After that open localhost/phpmyadmin in browser and import file of ./sql/rex.sql from downloaded zip if you are using any server Manager app like XAMPP, WAMP else start MySQL service from MySQL server and open above url and follow further step that for importing sql file.
+After that open localhost/phpmyadmin in browser and import file of ./sql/rex.sql
+from downloaded zip if you are using any server Manager app like XAMPP, WAMP
+else start MySQL service from MySQL server and open above url and follow further step that for importing sql file.
 
-Then finally, Run the server and listen to particular port in which it is served i.e. localhost:80
+Then finally, Run the server and listen to particular port in which it is served
+i.e. localhost:80
 ```
 
 End with an example of getting some data out of the system or using it for a little demo
