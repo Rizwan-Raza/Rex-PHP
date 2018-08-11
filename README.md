@@ -39,52 +39,6 @@ End with an example of getting some data out of the system or using it for a lit
 
 ### Deployment
 
-For deployment you need register yourself with any of the jav# Rex-JSP
-
-## Real Estate eXplorer - Made using JSP
-
-### Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
-### Prerequisites
-
-What things you need to install the software and how to install them
-
-```
-Java Development Kit ^9 (JDK 9)
-Eclipse Oxygen IDE
-Apache Server ^9.0
-MySQL Database ^5.7
-Maven Build Tool
-```
-
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Extract the downloaded zip in a particular folder.
-
-Open Eclipse IDE and choose Import from FileSystem or Zip
-
-After getting things ready check the jdk version apache server version conflicts.
-
-Now add and subtract things you want
-```
-
-And repeat
-
-```
-Then finally, Run the server and listen to particular port in which it is served i.e. :8000
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-### Deployment
-
 For deployment you need register yourself with any of the apache http server provider like 000webhost.com, Heroku, Firebase, Amazon AWS etc.
 In my case, I am using 000webhost.com which is free for student.
 
@@ -97,7 +51,7 @@ In my case, I am using 000webhost.com which is free for student.
 
 ### Authors
 
-* **Rizwan Raza** - *Initial work* - [Rex-JSP](https://github.com/Rex-JSP)
+* **Rizwan Raza** - *Initial work* - [Rex-PHP](https://github.com/Rex-PHP)
 
 ### Acknowledgments
 
