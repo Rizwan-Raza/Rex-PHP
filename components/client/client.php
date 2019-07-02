@@ -37,5 +37,4 @@
 </div>
 <?php 
 	echo "<script>function myMap() { ".$GLOBALS['script']." }</script>";
-	// echo "<script src='https://maps.googleapis.com/maps/api/js?key=AIzaSyCEq9Rz6ZI_LgkwBWA-2QT09nFhTBphPAU&callback=myMap'></script>";
 ?>
