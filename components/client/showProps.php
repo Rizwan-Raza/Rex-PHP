@@ -255,11 +255,5 @@ function showPropsWithResult($result, $conn, $which) {
 			<b>Error!</b> Can't Retrieve properties from database currently due to query error. ".mysqli_error($conn)."
 		</div>";
 	}
-	// if ($which == "buy") {
-	// 	echo "<script>function myMap1() { $vars }</script>";
-	// 	echo "<script src='https://maps.googleapis.com/maps/api/js?key=AIzaSyCEq9Rz6ZI_LgkwBWA-2QT09nFhTBphPAU&callback=myMap1'></script>";
-	// } else {
-	// 	echo "<script>function myMap2() { $vars }</script>";
-	// 	echo "<script src='https://maps.googleapis.com/maps/api/js?key=AIzaSyCEq9Rz6ZI_LgkwBWA-2QT09nFhTBphPAU&callback=myMap2'></script>";		
-	// }
+	
 }
